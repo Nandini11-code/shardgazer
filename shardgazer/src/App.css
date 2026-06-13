@@ -1,13 +1,12 @@
 /* src/App.css */
 
-/* Top-level structure mapping the sidebar + content canvas layout */
+/* src/App.css */
 .app-container {
-  display: flex;
   width: 100vw;
   min-height: 100vh;
-  background-color: var(--bg-main);
-  color: var(--text-main);
-  overflow-x: hidden;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Base style overrides for custom inner utility widgets */
