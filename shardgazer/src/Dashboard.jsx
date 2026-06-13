@@ -1,14 +1,14 @@
 // src/Dashboard.jsx
 import React, { useState, useEffect } from 'react';
 
-import StatusHub from './components/statushub';
-import DataLocationMap from './components/datalocationmap';
-import DataFinder from './components/datafinder';
-import ActivitySorter from './components/activitysorter';
-import BackupOrganizer from './components/backuporganizer';
-import QueryPlanner from './components/queryplanner';
-import StorageBalancer from './components/storagebalancer';
-import WriteHistoryLog from './components/writehistorylog';
+import StatusHub from './components/statushub.jsx';
+import DataLocationMap from './components/datalocationmap.jsx';
+import DataFinder from './components/datafinder.jsx';
+import ActivitySorter from './components/activitysorter.jsx';
+import BackupOrganizer from './components/backuporganizer.jsx';
+import QueryPlanner from './components/queryplanner.jsx';
+import StorageBalancer from './components/storagebalancer.jsx';
+import WriteHistoryLog from './components/writehistorylog.jsx';
 
 import { 
   initialNodes, 
