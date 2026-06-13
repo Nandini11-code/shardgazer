@@ -1,28 +1,72 @@
 /* src/index.css */
+
+/* 1. Monochromatic CSS Custom Variables */
 :root {
   --bg-main: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-dark: #212529;
+  --bg-neutral: #e9ecef;
+  
+  --border-light: #dee2e6;
+  --border-medium: #ced4da;
+  --border-dark: #343a40;
+  
   --text-main: #495057;
+  --text-muted: #6c757d;
+  --text-light: #adb5bd;
+  --text-bright: #f8f9fa;
+  --text-dark: #212529;
+  
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+  
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 15px 30px rgba(33, 37, 41, 0.06);
 }
 
+/* 2. Base Document Overrides */
 html, body, #root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--bg-main);
   color: var(--text-main);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--sans);
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-#root {
-  display: flex;
-  width: 100vw;
-  max-width: 100vw;
+body {
+  margin: 0;
+}
+
+/* 3. Typography Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-dark);
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 4px 8px;
+  background: var(--bg-neutral);
+  border-radius: 4px;
+  color: var(--text-dark);
 }
