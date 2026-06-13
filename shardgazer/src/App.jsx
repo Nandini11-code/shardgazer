@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import Dashboard from './Dashboard'; // Fixed import point
+import dashboard from './Dashboard'; // Fixed import point
 import './App.css';
 
 function App() {
