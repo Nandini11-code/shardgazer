@@ -12,7 +12,7 @@ Whether you are looking to scale your infrastructure or simply want to understan
 
 ## 🚀 Live Demo
 Experience the application live here:  
-👉 **[Live Demo Link](https://your-live-demo-url.com)** *(e.g., hosted on Vercel/Render/Heroku)*
+👉 **[Live Demo Link](https://shardgazer.vercel.app/)** *(e.g., hosted on Vercel/Render/Heroku)*
 
 ---
 
