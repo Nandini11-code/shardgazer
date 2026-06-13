@@ -1,0 +1,28 @@
+/* src/index.css */
+:root {
+  --bg-main: #f8f9fa;
+  --text-main: #495057;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#root {
+  display: flex;
+  width: 100vw;
+  max-width: 100vw;
+}
